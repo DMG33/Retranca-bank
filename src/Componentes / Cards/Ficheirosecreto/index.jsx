@@ -1,13 +1,14 @@
-import"./App.css"
-import Ficheirosecreto from "./Components/Cards"
 
-export default function App(){
- 
+
+import"./styles.css"
+
+export default function App (){
+
 
   return (
 
     <div className="App">
-     <Ficheirosecreto/>
+     <FicheiroSecreto/>
       <Ficheirosecreto nome= "Rayssa"/>
       <Ficheirosecreto nome= "Ivyan"/>
       <Ficheirosecreto nome= "Daciane"/>
@@ -17,6 +18,5 @@ export default function App(){
     </div>
   )
 }
-
 
 
