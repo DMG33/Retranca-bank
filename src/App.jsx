@@ -1,19 +1,26 @@
-import"./App.css"
-import Ficheirosecreto from "./Components/Cards"
+
+import"./estilo.css"
+
+
+
+
 
 export default function App(){
- 
+
+
 
   return (
-
-    <div className="App">
-     <Ficheirosecreto/>
-      <Ficheirosecreto nome= "Rayssa"/>
-      <Ficheirosecreto nome= "Ivyan"/>
-      <Ficheirosecreto nome= "Daciane"/>
-
-
-
+    <div>
+    <div>
+      <div className="card">
+        <div>
+         <div>
+           <p>Entradas</p>
+           <h3>R$ 300</h3>
+         </div>
+        </div>
+      </div>
+    </div>
     </div>
   )
 }
