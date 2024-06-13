@@ -1,4 +1,5 @@
 
+import Model from "./Componente/Model"
 import"./estilo.css"
 
 
@@ -7,12 +8,23 @@ import"./estilo.css"
 
 export default function App(){
 
+  const openModel = true
+
+
+function alerta (idade) {
+
+alert(idade)
+
+}
 
 
   return (
     <div>
     <div>
       <div className="card">
+        <button onClick={()=>alerta("Dave")}>
+          Nova transação
+        </button>
         <div>
          <div>
            <p>Entradas</p>
@@ -21,6 +33,7 @@ export default function App(){
         </div>
       </div>
     </div>
+    {openModel && <Model/>}
     </div>
   )
 }
