@@ -1,8 +1,8 @@
-.Modelone {
+.Model {
 
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(48, 44, 44);
+    background-color: rgb(253, 48, 48);
     z-index: 50;
 }
