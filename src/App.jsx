@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Model from "./Componente/Model"
 import"./estilo.css"
+import"./App.css"
 
 
 
@@ -47,24 +48,24 @@ if(idade<18){
 }
 
   return (
-    <div>
-      <button onClick={()=>handleModelAberta()}>
+    <div style={{position: "relative"}}>
+      {/* <button onClick={()=>handleModelAberta()}>
         clique Aqui
-      </button>
-    <div>
-      <div className="card">
-        <button onClick={()=>alerta("Dave")}>
-          Nova transação
-        </button>
-        <div>
-         <div>
-           <p>Entradas</p>
-           <h3>R$ 300</h3>
-         </div>
+      </button> */}
+      <div>
+        <div className="card">
+          <button onClick={()=>alerta("Dave")}>
+            Nova transação
+          </button>
+          <div>
+            <div>
+              <p>Entradas</p>
+              <h3>R$ 300</h3>
+            </div>
+          </div>
         </div>
       </div>
-        </div>
-   {modelAberta && <Model onClickModel={()=>handleModelClose()}/>}
+      <Model onClickModel={()=>handleModelClose()}/>
     </div>
   )
 }
