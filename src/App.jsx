@@ -5,13 +5,7 @@ import"./estilo.css"
 import"./App.css"
 
 
-
-
-
 export default function App(){
-
-
-
 
   const [modelAberta, setModelAberta]= useState(false)
  
@@ -24,9 +18,6 @@ export default function App(){
   }
 
   
-
-
-
 function alerta (idade) {
 
 alert(idade)
@@ -35,8 +26,6 @@ alert(idade)
 
 function retrancaMaravilha(){
 const idade = prompt("quantos anos voce tem?")
-
-
 
 
 if(idade<18){
@@ -54,6 +43,7 @@ if(idade<18){
       </button> */}
       <div>
         <div className="card">
+           
           <button onClick={()=>alerta("Dave")}>
             Nova transação
           </button>

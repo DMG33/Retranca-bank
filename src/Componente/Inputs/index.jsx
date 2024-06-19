@@ -1,9 +1,12 @@
-export default function InputUser(){
+import "./styles.css"
+
+
+export default function InputUser({placeholder}){
 
     return (
 
         <div>
-            <input/>
+            <input className="Input-dados" placeholder={placeholder}/>
         </div>
     )
 }

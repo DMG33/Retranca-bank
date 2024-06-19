@@ -9,9 +9,16 @@ export default function Model({onClickModel}){
                 <form>
 
                     <h1>Cadastrar transação</h1>
-                    <div>
-                    <InputUser/>
-                    <InputUser/>
+
+                    <div style= {{
+                        display: "flex",
+                        justifyCont:"space-between",
+                        flexDirection: "column",
+                        gap:10
+
+                    }}>
+                    <InputUser placeholder={"Titulo"}/>
+                    <InputUser placeholder={"valor"}/>
                     </div>
                    
                 </form>
