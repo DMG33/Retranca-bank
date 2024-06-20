@@ -23,8 +23,8 @@ export default function Model({onClickModel}){
                     </div>
                     
                     <div className="pressionUser">
-                        <ButtonUser />
-                        <ButtonUser />
+                        <ButtonUser textorButton ={"Entrada"}/>
+                        <ButtonUser textorButton ={"Saida"}/>
                     </div> 
                 </form>
             </div>

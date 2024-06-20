@@ -1,11 +1,11 @@
 
 import "./styles.css"
 
-export default function ButtonUser(){
+export default function ButtonUser({textorButton}){
 
     return(
         <div>
-            <button className="botão"/>
+            <button className="botão">{textorButton}</button>
         </div> 
     )
 }
