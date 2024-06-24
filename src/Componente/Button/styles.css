@@ -3,7 +3,13 @@
 .botão{
 width: 236px;
 height: 64px;
-background-color: #33CC95;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center1;
+gap: 15px;
+border-radius: 1px; 
+border: solid 1px #D7D7D7;
 
 
 

@@ -47,7 +47,7 @@
 .paraCima{
     display:flex;
     flex-direction: column;
-    gap:35px;
+    gap:20px;
     height: 100%;
     width: 100%;
 

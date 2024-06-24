@@ -17,15 +17,13 @@ export default function Model({onClickModel}){
                         Cadastrar transação
                     </h1>
             
-                    
                     <div>
-                       
-                      
                         <div style= {{
                             display: "flex",
                             justifyCont:"space-between",
                             flexDirection: "column",
-                            gap:10
+                            gap:10,
+                            marginBottom: 10
 
                         }}>
                             <InputUser placeholder={"Titulo"}/>
@@ -33,7 +31,7 @@ export default function Model({onClickModel}){
                         </div>
 
                         <div className="pressionUser">
-                            <ButtonUser textorButton ={"Entrada"}/>
+                            <ButtonUser typeIcon ={"up"} textorButton ={"Entrada"}/>
                             <ButtonUser textorButton ={"Saida"}/>
                         </div>
                     </div>
