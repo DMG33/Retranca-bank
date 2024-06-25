@@ -37,7 +37,7 @@ export default function Model({onClickModel}){
                     </div>
                        
                        <button className="cadastrar">
-                        Cadastar
+                        Cadastrar
                        </button>
                        
                     </form>
