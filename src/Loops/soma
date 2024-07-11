@@ -1,0 +1,25 @@
+
+const lista = ["Elefante", "agua", "pizza"]
+const despesas = [
+    {
+      fatura: "luz",
+      valoresMensal: [0, 70, 67],
+    },
+    {
+      fatura: "internet",
+      valoresMensal: [100, 120, 389.6],
+    },
+    {
+      fatura: "agua",
+      valoresMensal: [75, 80, 37],
+    },
+  ];
+
+for(let key= 0; key < lista.length; key++){
+const fatura = despesas[key].fatura
+const valoresMensal= despesas[key].valoresMensal
+
+const somaValores = valoresMensal.reduce((total, number)=> total + number, 0)
+console.log("Sua conta de " + fatura + " dos ultimos 3 meses é R$" + somaValores )
+
+}
