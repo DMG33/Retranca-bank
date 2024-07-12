@@ -2,8 +2,15 @@ import ButtonUser from "../Button"
 import { IoMdClose } from "react-icons/io";
 import InputUser from "../Inputs"
 import"./styles.css"
+import { useState } from "react";
 
 export default function Model({onClickModel}){
+
+    const [title, setTile,] = useState("")
+    const [valor, setValor] = useState("")
+    const [opcoes, setOpcoes] = useState("")
+
+    
 
     return(
         <div className="model-teste">
@@ -27,6 +34,7 @@ export default function Model({onClickModel}){
 
                         }}>
                             <InputUser placeholder={"Titulo"}/>
+
                             <InputUser placeholder={"0"}/>
                         </div>
 
