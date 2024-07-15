@@ -1,19 +1,14 @@
 import "./styles.css"
 
 
-export default function InputUser({placeholder}){
+export default function InputUser({placeholder, estouFazendo}){
 
-    function myInput(ativity){
-
-        console.log(ativity)
-
-        
-    }
+  
 
     return (
 
         <div>
-            <input className="Input-dados" placeholder={placeholder} onChange={( Flamengo)=> myInput(Flamengo.target.value)}/>
+            <input className="Input-dados" placeholder={placeholder} onChange={estouFazendo}/>
         </div>
     )
 }

@@ -10,7 +10,12 @@ export default function Model({onClickModel}){
     const [valor, setValor] = useState("")
     const [opcoes, setOpcoes] = useState("")
 
-    
+    function myInput(ativity){
+
+        console.log(ativity.target.value);
+     
+                       
+    }
 
     return(
         <div className="model-teste">
@@ -33,7 +38,8 @@ export default function Model({onClickModel}){
                             marginBottom: 10
 
                         }}>
-                            <InputUser placeholder={"Titulo"}/>
+                            <InputUser placeholder={"Titulo"} estouFazendo={myInput}/>
+
 
                             <InputUser placeholder={"0"}/>
                         </div>

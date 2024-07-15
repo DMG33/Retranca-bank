@@ -57,6 +57,7 @@ if(idade<18){
       </div>
       <Model onClickModel={()=>handleModelClose()}/>
         
+        
     </div>
   )
 }
